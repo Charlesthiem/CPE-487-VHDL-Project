@@ -37,7 +37,7 @@ entity UDCounterModule is
        Cout: out std_logic;
        Q: out std_logic_vector(4 downto 1));
 end UDCounterModule;
-
+d
 architecture Behavioral of UDCounterModule is
 
 function countQ(Q: in std_logic_vector, UD: in std_logic) return std_logic_vector(4 downto 1) is
